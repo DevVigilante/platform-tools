@@ -37,7 +37,7 @@ ENV ANDROID_NDK_HOME /usr/local/android-ndk-r26-beta1
 ENV PATH $PATH:$ANDROID_NDK_HOME
 
 # Install required Python packages
-RUN pip3 install requests
+# RUN python3 -m pip install requests --break-system-packagess
 
 
 # Optional: Set the working directory inside the container

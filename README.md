@@ -21,7 +21,7 @@ sudo apt-get install -y python3 python3-pip git golang build-essential cmake nin
 Use the `get_source.py` Python script to fetch the sources for required repositories :
 
 ```bash
-python get_source.py --tag=platform-tools-34.0.0
+python3 get_source.py --tag=platform-tools-36.0.0
 ```
 
 Please note that the `get_source.py` script clones only the specified tag to avoid cloning the entire repository. The cloned repositories are in a `DETACHED HEAD` state. This is enough for 'just building the tools'. However, in some cases, you might want to clone the entire repositories which can be done by editing the `get_source.py` script (you can prefer @lzhiyong's repo in this case which uses git submodules).

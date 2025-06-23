@@ -138,15 +138,15 @@ def main():
     download(url, os.path.basename(url), "src/libziparchive")
 
     # zipalign
-    url = "https://android.googlesource.com/platform/build.git/+archive/refs/tags/platform-tools-33.0.3/tools/zipalign.tar.gz"
+    url = "https://android.googlesource.com/platform/build.git/+archive/refs/tags/platform-tools-35.0.2/tools/zipalign.tar.gz"
     download(url, os.path.basename(url), "src/zipalign")
 
     # etc1tool
-    url = "https://android.googlesource.com/platform/development/+archive/refs/tags/platform-tools-33.0.3/tools/etc1tool.tar.gz"
+    url = "https://android.googlesource.com/platform/development/+archive/refs/tags/platform-tools-35.0.2/tools/etc1tool.tar.gz"
     download(url, os.path.basename(url), "src/etc1tool")
 
     # libbuildversion
-    url = "https://android.googlesource.com/platform/build/soong/+archive/refs/tags/platform-tools-33.0.3/cc/libbuildversion.tar.gz"
+    url = "https://android.googlesource.com/platform/build/soong/+archive/refs/tags/platform-tools-35.0.2/cc/libbuildversion.tar.gz"
     download(url, os.path.basename(url), "src/libbuildversion")
 
     # patch files
